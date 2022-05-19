@@ -1,10 +1,8 @@
 import { Module } from '@nestjs/common';
-import { AppController } from './app.controller';
-import { AppService } from './app.service';
 
+// this file is similar to app.js in react, this will be the main module that will import another modules
 @Module({
   imports: [],
-  controllers: [AppController],
-  providers: [AppService],
+  
 })
 export class AppModule {}
